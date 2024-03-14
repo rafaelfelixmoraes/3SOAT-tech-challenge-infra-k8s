@@ -27,3 +27,11 @@ variable "vm_size" {
     default = "Standard_B2S"
     description = "VM Size"
 }
+
+variable "client_id" {
+  type = string
+}
+
+variable "client_secret" {
+  type = string
+}
