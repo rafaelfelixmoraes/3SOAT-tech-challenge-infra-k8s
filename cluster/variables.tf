@@ -30,8 +30,14 @@ variable "vm_size" {
 
 variable "client_id" {
   type = string
+  default = "0000"
+  sensitive = true
+  description = "Azure AD client_id"
 }
 
 variable "client_secret" {
   type = string
+  default = "00000"
+  sensitive = true
+  description = "Azure AD client_secret"
 }
